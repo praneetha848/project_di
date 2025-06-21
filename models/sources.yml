@@ -4,6 +4,7 @@ sources:
       database: "{{('sales')}}"
       schema: RAW_SCHEMA
       tables:
+      
         - name: RAW_LINEITEM
           columns:
             - name: l_orderkey

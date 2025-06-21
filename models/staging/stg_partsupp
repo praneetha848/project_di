@@ -1,6 +1,0 @@
-{{ config(materialized='table') }}
-
-WITH tb1 as(
-    select *
-from {{source('snowflake_data','RAW_PARTSUPP')}})
-select * from tb1
